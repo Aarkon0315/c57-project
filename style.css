@@ -22,6 +22,7 @@ body{
     height: 100%;
     opacity: 0.83;
     display: table;
+    z-index: 9;
     
 }
 #sec2{
@@ -39,9 +40,41 @@ h2{
     text-shadow:2px 2px #F8BBD0; font-size:20px; 
 }
 h1{
-    font-style: italic;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 50px;
 }
 p{
     color: white;
+}
+.links:hover{
+    background-color: palevioletred;
+    
+}
+.links{
+    float:left;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.menu{
+    list-style: none;
+    font-family:sans-serif;
+    position: fixed;
+    top:10px;
+    right:30px;
+    z-index: 10;
+    cursor: pointer;    
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: fuchsia;   
 }
